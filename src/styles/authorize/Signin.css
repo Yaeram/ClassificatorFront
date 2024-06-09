@@ -1,0 +1,55 @@
+.sign-in-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-container > form{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid rgb(130, 128, 128);
+    border-radius: 30px;
+    padding: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+}
+
+.sign-in-title-container {
+    align-self: center;
+    font-size: 20px;
+}
+
+.sign-in-container > form > *{
+    margin-bottom: 20px;
+}
+
+.sign-in-mail-container > input{
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 200px; 
+}
+
+.sign-in-password-container > input{
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 200px; 
+}
+
+.sign-in-submit-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sign-in-submit-profile > input {
+    width: 150px;
+    height: 30px;
+}

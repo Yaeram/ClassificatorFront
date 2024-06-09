@@ -1,0 +1,39 @@
+.about {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+}
+
+.about-theme {
+    width: 50%;
+    border-left: 7px solid rgb(247, 137, 41);
+    padding: 15px;
+    font-size: 35px; 
+    text-align:justify;
+}
+
+.about-student {
+    width: 50%;
+    margin-top: 1.5%;
+    font-size: 30px; 
+    text-align: right;
+}
+.about-container {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(130, 128, 128);
+    border-radius: 30px;
+    margin: 20px;
+}
+.about-container > * {
+    margin-bottom: 15px;
+    }

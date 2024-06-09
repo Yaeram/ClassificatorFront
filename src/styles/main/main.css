@@ -1,0 +1,81 @@
+.analyzer-out-container {
+    height: 95vh;
+    display:flex;
+    flex-direction: row;
+}
+
+.analyzer-out-container > * {
+    flex: 1;
+}
+
+.output-container {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(130, 128, 128);
+    border-radius: 30px;
+    margin: 50px;
+}
+
+.analyzer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(130, 128, 128);
+    border-radius: 30px;
+    margin: 50px;
+}
+
+.analyzer-container > form{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.sign-in-title-container {
+    align-self: center;
+    font-size: 20px;
+}
+.output-title-container {
+    align-self:center;
+    font-size: 20px;
+}
+
+.analyzer-container > form > *{
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 400px;
+    width:500px;
+    margin-top: 5px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.sign-in-password-container > input{
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 200px; 
+}
+
+.sign-in-submit-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sign-in-submit-profile > input {
+    width: 150px;
+    height: 30px;
+}

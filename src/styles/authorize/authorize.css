@@ -1,0 +1,13 @@
+.authorize-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.authorize-container > * {
+    flex: 1;
+    text-align: justify;
+}
+
+

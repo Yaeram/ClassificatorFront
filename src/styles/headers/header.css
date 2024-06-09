@@ -1,0 +1,30 @@
+.headerList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 17px;
+    min-height: 4em;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid rgb(85, 84, 84);
+    background-color: rgb(253, 172, 80);
+}
+
+.headerElement {
+    display: flex;
+    align-items: center;
+    padding:0 3vh 0 3vh;
+    list-style-type: none;
+    min-height: 100%;
+    min-width: 5%;
+
+}
+
+.headerElement > * {
+    text-decoration: none;
+    color: black;
+}
+
+.headerElement:hover {
+    scale: 1.05;
+}
